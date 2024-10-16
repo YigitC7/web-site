@@ -3,4 +3,4 @@ git clone https://github.com/YigitC7/Micropad
 sudo dpkg -i Micropad/deb-pack/micropad_1.0.deb
 echo "=================================="
 echo "Kurulum tamamlandı"
-rm -r Micropad
+
