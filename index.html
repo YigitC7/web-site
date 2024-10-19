@@ -3,35 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yigit-Packages</title>
+  <title>Yigit Packages</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    p {
+      line-height: 1.6;
+    }
+    code {
+      display: block;
+      background-color: #f4f4f4;
+      padding: 10px;
+      margin: 10px 0;
+      border-left: 3px solid #007BFF;
+    }
+    .package {
+      border-top: 2px solid #ddd;
+      padding-top: 20px;
+      margin-top: 20px;
+    }
+    .package:first-of-type {
+      border-top: none;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-  <h1>Paketler</h1>
-  <p>Benim geliştirdiğim programları çok basit bir şekilde sisteme kurabilir, kaldırabilir veya güncelleyebilirsiniz</p>
-  <p>Bunun için curl yüklü olduğundan emin olun (sud apt install curl)</p>
+  <header>
+    <h1>Paketler</h1>
+  </header>
 
-  <p>=======================================================================================</p>
-  <p>Micropad</p>
-  <code>Kur veya güncelle : curl -sSL https://yigit-packages.netlify.app/micropad/install.sh | bash</code>
-  <p></p>
-  <code>Kaldır : sudo apt remove micropad</code>
-  <br>
-  <p>Uyumlu dağıtım : Debian ve Debain tabanlı dağıtımlar</p>
-  <p>=======================================================================================</p>
-  <br>
-  <p>=======================================================================================</p>
-  <p>Micro Hesap Makinesi</p>
-  <code>Kur veya  güncelle : curl -sSL https://yigit-packages.netlify.app/microhesapmakinesi/install.sh | bash</code>
-  <p></p>
-  <code>Kaldır : sudo apt remove microhesapmakinesi</code>
-  <br>
-  <p>Uyumlu dağıtım : Debian ve Debain tabanlı dağıtımlar</p>
-  <p>=======================================================================================</p>
-  
-  <br>
-  <h2>Paketler(2):</h2>
-  <a href=https://github.com/YigitC7/Micropad/tree/main/deb-pack>Micropad</a>
-  <br>
-  <a href=https://github.com/YigitC7/MicroHesapMakinesi/tree/main/deb-pack>Micro Hesap Makinesi</a>
+  <div class="container">
+    <p>Benim geliştirdiğim programları çok basit bir şekilde sisteme kurabilir, kaldırabilir veya güncelleyebilirsiniz.</p>
+    <p>Bunun için <strong>curl</strong> yüklü olduğundan emin olun (sudo apt install curl).</p>
+
+    <div class="package">
+      <h2>Micropad</h2>
+      <p>Kur veya güncelle:</p>
+      <code>curl -sSL https://yigit-packages.netlify.app/micropad/install.sh | bash</code>
+      <p>Kaldır:</p>
+      <code>sudo apt remove micropad</code>
+      <p>Uyumlu dağıtım: Debian ve Debian tabanlı dağıtımlar</p>
+    </div>
+
+    <div class="package">
+      <h2>Micro Hesap Makinesi</h2>
+      <p>Kur veya güncelle:</p>
+      <code>curl -sSL https://yigit-packages.netlify.app/microhesapmakinesi/install.sh | bash</code>
+      <p>Kaldır:</p>
+      <code>sudo apt remove microhesapmakinesi</code>
+      <p>Uyumlu dağıtım: Debian ve Debian tabanlı dağıtımlar</p>
+    </div>
+
+    <h2>Paket adresleri</h2>
+    <ul>
+      <li><a href="https://github.com/YigitC7/Micropad/tree/main/deb-pack" target="_blank">Micropad</a></li>
+      <li><a href="https://github.com/YigitC7/MicroHesapMakinesi/tree/main/deb-pack" target="_blank">Micro Hesap Makinesi</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Yiğit Çıtak</p>
+  </footer>
 </body>
 </html>
+
