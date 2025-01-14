@@ -12,7 +12,7 @@ sudo rpm -ivh Defter/rpm/Defter.rpm
 
 # Betik adı ve komut
 betik_adi="defter-guncelle"
-komut="curl -sSL https://yigit-packages.netlify.app/Defter/upgrade.sh | bash"
+komut="curl -sSL https://yigit-packages.netlify.app/defter/upgrade.sh | bash"
 
 # Betiği /usr/local/bin dizinine oluştur
 sudo bash -c "echo '#!/bin/bash' > /usr/local/bin/$betik_adi"
