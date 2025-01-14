@@ -7,12 +7,12 @@ sudo dnf install git -y
 git clone https://github.com/YigitC7/Defter
 
 # RPM paketini yükleyin
-sudo rpm -ivh Defter/rpm/Defter.rpm
+sudo rpm -ivh Defter/rpm/defter.rpm
 
 
 # Betik adı ve komut
 betik_adi="defter-guncelle"
-komut="curl -sSL https://yigit-packages.netlify.app/defter/upgrade.sh | bash"
+komut="curl -sSL https://yigit-packages.netlify.app/Defter/upgrade.sh | bash"
 
 # Betiği /usr/local/bin dizinine oluştur
 sudo bash -c "echo '#!/bin/bash' > /usr/local/bin/$betik_adi"
