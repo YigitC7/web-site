@@ -7,7 +7,7 @@ sudo dnf install git -y
 git clone https://github.com/YigitC7/Defter
 
 # RPM paketini yükleyin
-sudo rpm -ivh Defter/rpm/defter.rpm
+sudo rpm -ivh Defter/rpm/Defter.rpm
 
 
 # Betik adı ve komut
