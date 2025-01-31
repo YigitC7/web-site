@@ -1,7 +1,7 @@
 sudo dnf install git -y
-git clone https://github.com/YigitC7/Defter
+git clone https://gitlab.com/YigitCitak/defterr
 sudo rpm -e Defter
-sudo rpm -ivh Defter/rpm/defter.rpm
+sudo rpm -ivh defterr/defter.rpm
 echo "=================================="
 echo "Güncelleme işlemi bitti"
-rm -r Defter
+rm -r defterr
