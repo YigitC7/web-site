@@ -4,10 +4,10 @@
 sudo dnf install git -y
 
 # Git deposunu klonlayın
-git clone https://github.com/YigitC7/Defter
+git clone https://gitlab.com/YigitCitak/defterr
 
 # RPM paketini yükleyin
-sudo rpm -ivh Defter/rpm/defter.rpm
+sudo rpm -ivh defterr/defter.rpm
 
 
 # Betik adı ve komut
@@ -22,7 +22,7 @@ sudo bash -c "echo '$komut' >> /usr/local/bin/$betik_adi"
 sudo chmod +x /usr/local/bin/$betik_adi
 
 # Geçici dosyaları temizle
-rm -r Defter
+rm -r defterr
 
 echo "=================================="
 # Bilgilendirme mesajı
